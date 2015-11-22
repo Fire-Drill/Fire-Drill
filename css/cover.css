@@ -1,0 +1,104 @@
+
+#site-wrapper {
+	background-color: white;
+}
+
+.navbar-custom {
+	color: white;
+    background-color: black;
+    border-color: black;
+    border-radius: 0;
+}
+
+.navbar-brand {
+	font-weight: 300;
+	font-size: 36px;
+}
+
+#main-content {
+	text-align: center;
+	background-color: white;
+}
+
+h1 {
+	border-radius: 2px;
+	font-size: 64px;
+}
+
+#motto {
+	padding-top: 0;
+}
+
+
+input {
+	padding: 1vh;
+	margin: 1vh;
+}
+
+button {
+	margin-top: 2vh;
+	padding: 1vh 2.5vh;
+	background-color: black;
+	color: white;
+	font-size: 16px;
+	border-color: black;
+}
+
+#mce-success-response {
+	padding-top: 5px;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	body {
+    padding: 0;
+  }
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	body {
+		font-family: 'Roboto Condensed';
+    	padding: 0;
+  }
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	body {
+		font-family: 'Roboto Condensed';
+    	padding: 0;
+  }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	body {
+		font-family: 'Roboto Condensed';
+    	padding: 0;
+  }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	body {
+		font-family: 'Roboto Condensed';
+    	padding: 0;
+  }
+  	h1 {
+  		font-size: 48px;
+  	}
+  	h3 {
+  		font-size: 20px;
+  	}
+  	#logo {
+  		height: 100px;
+  		width: auto;
+  	}
+
+}
+
